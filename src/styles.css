@@ -3,4 +3,22 @@ body {
     opacity: 1;
     background-image:  linear-gradient(#0f0f0f 4px, transparent 4px), linear-gradient(to right, #0f0f0f 4px, #000000 4px);
     background-size: 130px 130px;
+
+    font-family: 'Roboto', sans-serif;
+
 }
+
+.btn-perso {
+    font-weight: 800;
+    background-color: #D0F500;
+    border-radius: 53px;
+    border: 2px solid #000000;
+    box-shadow: 4px 5px #A66DFF;
+    
+}
+
+.btn-perso:hover {
+    background-color: #4c5c05;
+    transition: 0.5s;
+}
+

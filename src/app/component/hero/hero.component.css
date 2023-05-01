@@ -1,0 +1,58 @@
+
+h1 {
+    color: #ffff;
+    font-size: 80px;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.code {
+    padding-left: 7.5rem;
+}
+
+.rest-text {
+    padding-left: 4.3rem;
+}
+
+.text-main {
+    position: absolute;
+    top: 770px;
+}
+
+.hero-logo {
+    position: absolute;
+    left: 70%;
+    bottom: 50%;
+    animation: float 1.5s linear infinite;
+}
+
+.btn-main {
+    margin-top: 10rem;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+
+@media (max-width: 992px) {
+    .text-main {
+        text-align: center;
+        position: relative;
+        top: auto;
+        padding: 0;
+    }
+
+    .code {
+        padding: 0;
+    }
+
+    .rest-text {
+        padding: 0;
+    }
+
+    .btn-main {
+        margin-top: 5rem;
+    }
+}

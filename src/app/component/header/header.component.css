@@ -1,0 +1,18 @@
+nav {
+    margin: 15px 47px;
+}
+
+
+a {
+    color: #ffff;
+}
+
+a:hover {
+    color: #A66DFF;
+    transition: 0.1s;
+    text-decoration: underline 2px;
+
+}
+
+
+
