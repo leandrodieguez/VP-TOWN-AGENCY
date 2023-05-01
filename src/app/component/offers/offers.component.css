@@ -42,6 +42,18 @@
   .text-main {
     padding: 0 100px;
   }
+
+  .offers-img {
+    width: 400px;
+    height: 224px;
+    border: 2px solid #ffff;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+
+  .offers-img:hover {
+    transform: rotate(-7deg);
+  }
   
   @media (max-width: 992px) {
     h3 {
