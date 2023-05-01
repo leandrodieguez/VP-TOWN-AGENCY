@@ -30,6 +30,7 @@ h1 {
     margin: 9rem 0;
 }
 
+/*/ media /*/
 
 @keyframes float {
     50% {
@@ -56,4 +57,12 @@ h1 {
     .btn-main {
         margin-top: 5rem;
     }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    
 }
