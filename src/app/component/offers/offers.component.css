@@ -60,6 +60,10 @@
       font-size: 50px;
     }
 
+    .img-decoration {
+      margin-left: 60px;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -70,6 +74,7 @@
   .text-main {
     padding: 0 40px;
   }
+
   
 }
   

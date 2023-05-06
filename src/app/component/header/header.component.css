@@ -1,24 +1,26 @@
 nav {
     margin: 15px 47px;
-}
-
-
-a {
+  }
+  
+  a {
     color: #ffff;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #A66DFF;
     transition: 0.1s;
     text-decoration: underline 2px;
-
-}
-
-.navbar-toggler-icon {
+  }
+  
+  .navbar-toggler-icon {
     color: #A66DFF;
-}
-
-.custom-toggle {
+  }
+  
+  .custom-toggle {
     color: #A66DFF;
-}
+  }
 
+  .show {
+    transition: 1s;
+  }
+  
